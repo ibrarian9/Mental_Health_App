@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.250">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/sign_up"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judul"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/input"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:textColorHint="@color/third"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edName"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input"
+            android:hint="@string/email"
+            android:inputType="textWebEmailAddress"
+            android:textColorHint="@color/third"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edEmail"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/third"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/black" />
+
+        <ProgressBar
+            android:id="@+id/pb"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/edPassword"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_below="@id/pb"
+            android:layout_marginTop="40dp"
+            android:text="@string/sign_up"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnSign"
+            android:textColor="@color/main"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="12sp"
+            android:text="Have Account? Login Here"/>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

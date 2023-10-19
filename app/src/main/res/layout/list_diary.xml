@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:padding="20dp"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Title"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTitle"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:text="@string/lorem"/>
+
+        <TextView
+            android:id="@+id/tvWaktu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvText"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:gravity="end"
+            android:text="waktu"/>
+    </RelativeLayout>
+
+</RelativeLayout>

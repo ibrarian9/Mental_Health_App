@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "148061470849",
+    "firebase_url": "https://health-app-d74ba-default-rtdb.firebaseio.com",
+    "project_id": "health-app-d74ba",
+    "storage_bucket": "health-app-d74ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148061470849:android:f6876b4fd0e88642a9cd80",
+        "android_client_info": {
+          "package_name": "com.app.lombaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148061470849-j3qectuodjmhp4lcbk2929hrveuotkgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuuu1EWT2c6BuM9459RBlPC9U9Zq5eQK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148061470849-j3qectuodjmhp4lcbk2929hrveuotkgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

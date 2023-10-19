@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lomba App</string>
+    <string name="name_app">Mental Health</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="reminder">Reminder</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="health_app">Health App</string>
+    <string name="doctor">Doctor</string>
+    <string name="back">Back</string>
+    <string name="diary">Diary</string>
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</string>
+    <string name="delete_diary">Delete Diary</string>
+    <string name="title">Title</string>
+    <string name="password">Password</string>
+    <string name="ketik">Ketik Sesuatu...</string>
+    <string name="about">About</string>
+    <string name="text_about">Mental Health Consultations merupakan aplikasi berbasis mobile yang diciptakan untuk membantu dalam penanganan gangguan kesehatan mental, aplikasi ini terbentuk dari keresahan terhadap beragamnya gangguan kesehatan mental yang terjadi di Indonesia yang menyerang banyak masyarakat yang sedang berada didalam usia produktif atau kita kenal dengan sebutan gen Z. Aplikasi Mental Health Consultations hadir dengan fitur yang sederhana dan dapat digunakan dengan mudah, serta memiliki fitur chat yang juga berperan dalam membantu user menemukan solusi dan mengurangi gangguan kecemasan yang diduga sedang dialami, HealthApps memiliki tampilan yang tidak asing sehingga user akan mudah untuk beradaptasi dan diharapkan dapat memberikan kenyamanan saat menggunakan nya.</string>
+</resources>
